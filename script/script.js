@@ -6,7 +6,7 @@ $(function () {
 
   $(".time-block").each(function() {
     var ie = $(this).attr("id").split("-")[1];
-    var row hour = parseInt(id);
+    var rowHour = parseInt(id);
     
     $(document).on('click', '.saveBtn', function() {
       var key = $(this).closest('.time-block').attr('id');
